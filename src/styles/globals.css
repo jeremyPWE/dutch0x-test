@@ -28,4 +28,7 @@
   h2 {
     @apply text-large;
   }
+  h3 {
+    @apply font-medium;
+  }
 }
