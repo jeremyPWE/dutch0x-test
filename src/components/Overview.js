@@ -5,7 +5,7 @@ import OverviewCard from "./OverviewCard";
 function Overview() {
   return (
     <div className="w-1/4">
-      <h2>Overview</h2>
+      <h2 className="text-black/50">Overview</h2>
       <div className="flex flex-col gap-y-[24px] pt-[8px]">
         <OverviewBox>
           <OverviewCard name="Wallet ballances" amount="0.489 ETH" />
