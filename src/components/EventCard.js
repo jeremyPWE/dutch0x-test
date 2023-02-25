@@ -25,7 +25,7 @@ function EventCard({ ...props }) {
                   className="object-cover"
                 />
               </div>
-              <p className="font-bold">AIRDROP</p>
+              <p className="font-bold text-white">AIRDROP</p>
             </div>
             <div className="flex items-center gap-x-[8px] px-[8px] bg-black/10 py-[8px] rounded-lg">
               <Icon
