@@ -6,8 +6,24 @@ function Events() {
     <div className="w-3/4">
       <h2>Events</h2>
       <div className="flex flex-col pt-[8px] gap-[24px]">
-        <EventCard />
-        <EventCard />
+        <EventCard
+          bgSrc="bg-[url('/events/brownie.png')]"
+          loader="/loader.svg"
+          bgColor="bg-[#3CAA2A]"
+          progress="Harvest"
+          progressBar="w-1/4"
+          title="Manure"
+          imgSrc="/events/brownie.png"
+        />
+        <EventCard
+          bgSrc="bg-[url('/events/blue.png')]"
+          loader="/finished.svg"
+          bgColor="bg-[#28458F]"
+          progress="It&lsquo;s Raining"
+          progreesBar="w-full"
+          title="Water"
+          imgSrc="/events/blue.png"
+        />
       </div>
     </div>
   );

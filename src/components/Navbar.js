@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 function Navbar() {
   return (
     <nav>
-      <Box className="flex items-center gap-x-[32px]">
+      <Box className="flex items-center gap-x-[32px] bg-white">
         <Link href="/" passHref>
           <div className="relative w-[145px] h-[36px]">
             <Image

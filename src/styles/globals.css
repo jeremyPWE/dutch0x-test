@@ -23,7 +23,7 @@
 
 @layer base {
   body {
-    @apply font-satoshi;
+    @apply font-satoshi bg-[#F5F5F5];
   }
   h2 {
     @apply text-large;

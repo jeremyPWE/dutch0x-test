@@ -42,7 +42,7 @@ const selection = [
 
 function DashboardSelect() {
   return (
-    <Box className="flex gap-x-[16px] items-center justify-center">
+    <Box className="flex gap-x-[16px] items-center justify-center shadow-md bg-white">
       {selection.map((item) => (
         <div key={item.id} className="w-1/5 flex flex-col items-center">
           <div
