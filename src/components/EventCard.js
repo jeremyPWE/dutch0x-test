@@ -75,17 +75,21 @@ function EventCard({ ...props }) {
           </div>
           <div className="flex pt-[16px] gap-x-[8px]">
             <Button className="bg-black text-white">More Details</Button>
-            <Button className="border border-black">Cancel</Button>
-            <div className="flex items-center">
-              <input
-                type="checkbox"
-                id="email-checkbox"
-                className="text-black focus:ring-0 m-[8px] rounded-sm"
-              />
-              <label htmlFor="email-checkbox text-small">
-                Receive report on email
-              </label>
-            </div>
+            {props.cancel ? (
+              <Button className="border border-black">Cancel</Button>
+            ) : null}
+            {props.check ? (
+              <div className="flex items-center">
+                <input
+                  type="checkbox"
+                  id="email-checkbox"
+                  className="text-black focus:ring-0 m-[8px] rounded-sm"
+                />
+                <label htmlFor="email-checkbox text-small">
+                  Receive report on email
+                </label>
+              </div>
+            ) : null}
           </div>
         </div>
         <div className="relative w-[303px] h-[216px]">

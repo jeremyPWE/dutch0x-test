@@ -14,6 +14,8 @@ function Events() {
           progressBar="w-1/4"
           title="Manure"
           imgSrc="/events/brownie.png"
+          check
+          cancel
         />
         <EventCard
           bgSrc="bg-[url('/events/blue.png')]"
