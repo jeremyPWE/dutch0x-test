@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 function OverviewCard({ ...props }) {
   return (
-    <div className={`w-full ${props.className}`}>
+    <div className={`w-full ${props.className} cursor-pointer`}>
       <div className="text-small flex justify-between items-center">
         <p className="text-black/60">{props.name}</p>
         <div className="flex items-center gap-x-[16px]">
